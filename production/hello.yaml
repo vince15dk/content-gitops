@@ -1,11 +1,14 @@
+---
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  creationTimestamp: null
+  creationTimestamp:
   labels:
     app: hello
   name: hello
   namespace: prod
+  annotations:
+    fluxcd.io/automated: 'true'
 spec:
   replicas: 1
   selector:
@@ -14,7 +17,7 @@ spec:
   strategy: {}
   template:
     metadata:
-      creationTimestamp: null
+      creationTimestamp:
       labels:
         app: hello
     spec:
