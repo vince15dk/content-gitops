@@ -1,0 +1,1 @@
+{"jobID":"d0dea3a0-a23f-3b12-f9e8-5a8c4d35215a","spec":{"type":"policy","cause":{"Message":"","User":"sj \u003cvince15dk@gmail.ciomi\u003e"},"spec":{"prod:deployment/hello":{"add":{"automated":"true"},"remove":{}}}},"result":null}
